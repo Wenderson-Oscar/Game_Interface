@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 102, 4, 4),
+        backgroundColor: Color.fromARGB(255, 245, 103, 60),
         body: LayoutBuilder(
           builder: (context, constraints) {
             return Stack(
@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
                     Expanded(
                       child: Container(
                         child: Head(),
-                        color: Color.fromARGB(255, 102, 4, 4),
+                        color: Color.fromARGB(255, 245, 103, 60),
                         height: constraints.maxHeight*.3,
                         width: constraints.maxWidth,
                       ),
